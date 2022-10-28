@@ -1,7 +1,6 @@
 # Iris
-Sorbonne University
 
-【GeoIP】
+*【GeoIP】*
 For visualizing the frequency of occurrence of "Probe_dst_prefix" and "Reply_src_addr", I used "choropleth maps" in Python with Plotly.
 
 Choropleth maps in Python  
@@ -17,7 +16,7 @@ Country codes by alpha-2 & alpha-3
 https://www.iban.com/country-codes
 
 
-【data】 
+*【data】* 
 Iris dataset collected for 1 week.  
 The collection interval is 100,000 data per hour.  
 
@@ -31,5 +30,5 @@ Column 03 : probe_ttl
 Column 04 : reply_src_addr  
 
 
-【output】 
+*【output】* 
 test program for accessing Iris dataset
