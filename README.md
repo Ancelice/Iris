@@ -16,6 +16,13 @@ Country codes by alpha-2 & alpha-3
 https://www.iban.com/country-codes
 
 
+## 【result】
+
+Result File of  
+probe_dst_prefix  
+reply_src_addr  
+probe_ttl  
+
 ## 【data】
 Iris dataset collected for 1 week.  
 The collection interval is 100,000 data per hour.  
