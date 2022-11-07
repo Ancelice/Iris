@@ -14,6 +14,6 @@ list_reply_src_addr.xlsx : Country list where the frequency of occurrence != 0
 ## 【Probe_ttl】
 
 probe_ttl.html : Source file / Time-series variation of TTL by bar chart  
-probe_ttl.mp4 : Movie / Time-series variation of TTL by bar chart
-probe_ttl.png : Box-plot of probe_ttl   
+probe_ttl.mp4 : Movie / Time-series variation of TTL by bar chart  
+probe_ttl.png : Box-plot of probe_ttl  
 list_probe_ttl.xlsx : TTL list where the frequency of occurrence != 0   
