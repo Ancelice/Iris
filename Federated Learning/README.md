@@ -25,3 +25,4 @@ The workflow of Federated Learning is described as follows:
 3. The clients send Local model to the server  
 4. The server updates Global model based on the information sent by the clients  
 
+![FL](https://user-images.githubusercontent.com/103622417/201034330-23224148-c3c3-407a-9ec4-52d120d1700b.PNG)
