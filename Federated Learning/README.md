@@ -20,7 +20,8 @@ Also, since the client does not need to send its own data to the server, Federat
 
 
 The workflow of Federated Learning is described as follows:  
-The server sends the current machine learning model in the server (Global model) to the clients  
-The clients train machine learning model by their own local data and create Local model  
-The clients send Local model to the server  
-The server updates Global model based on the information sent by the clients  
+1. The server sends the current machine learning model in the server (Global model) to the clients  
+2. The clients train machine learning model by their own local data and create Local model  
+3. The clients send Local model to the server  
+4. The server updates Global model based on the information sent by the clients  
+
