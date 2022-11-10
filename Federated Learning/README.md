@@ -1,14 +1,6 @@
 ## What is Federated Learning ?
 
 
-Federate Learning / Google  
-https://ai.googleblog.com/2017/04/federated-learning-collaborative.html  
-
-
-What is Federated Learning? Techniques, Use Cases, & Benefits  
-https://research.aimultiple.com/federated-learning/#what-is-federated-learning  
-
-
 In recent years, machine learning has been used in many cases to discover common and hidden patterns and rules from a large amount of data.  
 Although current machine learning commonly aggregates data centrally on a server, the drastic increase in the data makes it difficult to calculate on a single server.  
 
@@ -26,3 +18,11 @@ The workflow of Federated Learning is described as follows:
 4. The server updates Global model based on the information sent by the clients  
 
 ![FL](https://user-images.githubusercontent.com/103622417/201034330-23224148-c3c3-407a-9ec4-52d120d1700b.PNG)
+
+
+Federate Learning / Google  
+https://ai.googleblog.com/2017/04/federated-learning-collaborative.html  
+
+
+What is Federated Learning? Techniques, Use Cases, & Benefits  
+https://research.aimultiple.com/federated-learning/#what-is-federated-learning  
