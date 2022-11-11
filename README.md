@@ -1,5 +1,41 @@
 # Iris
 
+## 【data】
+Iris dataset collected for 1 week.  
+The collection interval is 100,000 data per hour.  
+
+2022/10/25 11:00 ~ 2022/11/1 10:00 (JST)
+
+Filename : log_Year_Month_Day_Hour.xlsx
+
+Column 01 : probe_src_addr  
+Column 02 : probe_dst_prefix  
+Column 03 : probe_ttl  
+Column 04 : reply_src_addr  
+
+
+## 【result】
+
+Result File of  
+probe_dst_prefix  
+reply_src_addr  
+probe_ttl  
+
+
+## 【Federated Learning】
+Iris dataset collected for 1 week.  
+The collection interval is 100,000 data per hour.  
+
+2022/10/25 11:00 ~ 2022/11/1 10:00 (JST)
+
+Filename : log_Year_Month_Day_Hour.xlsx
+
+Column 01 : probe_src_addr  
+Column 02 : probe_dst_prefix  
+Column 03 : probe_ttl  
+Column 04 : reply_src_addr  
+
+
 ## 【GeoIP】
 For visualizing the frequency of occurrence of "Probe_dst_prefix" and "Reply_src_addr", I used "choropleth maps" in Python with Plotly.
 
@@ -28,27 +64,6 @@ pdp_ttl : predict probe_ttl based on probe_dst_prefix
 rsa_ttl : predict probe_dst_prefix based on reply_src_addr   
 pdp_rsa : predict reply_src_addr based on probe_dst_prefix    
 rsa_pdp : predict probe_dst_prefix based on reply_src_addr  
-
-
-## 【result】
-
-Result File of  
-probe_dst_prefix  
-reply_src_addr  
-probe_ttl  
-
-## 【data】
-Iris dataset collected for 1 week.  
-The collection interval is 100,000 data per hour.  
-
-2022/10/25 11:00 ~ 2022/11/1 10:00 (JST)
-
-Filename : log_Year_Month_Day_Hour.xlsx
-
-Column 01 : probe_src_addr  
-Column 02 : probe_dst_prefix  
-Column 03 : probe_ttl  
-Column 04 : reply_src_addr  
 
 
 ## 【output】
