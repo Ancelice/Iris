@@ -26,3 +26,6 @@ https://ai.googleblog.com/2017/04/federated-learning-collaborative.html
 
 What is Federated Learning? Techniques, Use Cases, & Benefits  
 https://research.aimultiple.com/federated-learning/#what-is-federated-learning  
+
+
+## How to apply Federated Learning to Iris dataset  
