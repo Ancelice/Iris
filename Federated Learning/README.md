@@ -36,17 +36,18 @@ What’s a Deep Neural Network?
 https://www.bmc.com/blogs/deep-neural-network/
 
 
-～Workflow for prediction (Federated Learning)～
+～Workflow for prediction (Federated Learning)～  
 
-The data that could be collected at current time is used as training data 
-(ie: 2022/10/25 11:00), and divided by each region (Africa, Asia, Europe, NA, Oceania, and SA)
-The server sends the current machine learning model in the server (Global model) to the clients
-The clients train machine learning model by their own training data and create Local model
-Predict Data for the next time period (2022/10/25 12:00)
-Calculate MSE (Mean Square Error) and MAE (Mean Absolute Error) for local model
-The clients send Local model to the server
-The server updates Global model based on the information sent by the clients
-Calculate MSE and MAE for Global model
+1. The data that could be collected at current time is used as training data  
+2. (ie: 2022/10/25 11:00), and divided by each region (Africa, Asia, Europe, NA, Oceania, and SA)  
+3. The server sends the current machine learning model in the server (Global model) to the clients  
+4. The clients train machine learning model by their own training data and create Local model  
+5. Predict Data for the next time period (2022/10/25 12:00)  
+6. Calculate MSE (Mean Square Error) and MAE (Mean Absolute Error) for local model  
+7. The clients send Local model to the server  
+8. The server updates Global model based on the information sent by the clients  
+9. Calculate MSE and MAE for Global model  
+10. Return step 1 and continue...
 
 
 ～Intended Environment～
