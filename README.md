@@ -16,15 +16,10 @@ Column 04 : reply_src_addr
 
 ## 【result】
 
-Result File of  
-probe_dst_prefix  
-reply_src_addr  
-probe_ttl  
-
-
-## 【Federated Learning】
-Federated Learning for Iris dataset  
-How to apply Federated Learning to Iris dataset  
+Result File  
+.PNG  
+.html  
+.xlsx  
 
 
 ## 【GeoIP】
@@ -41,6 +36,11 @@ Column 03 : Frequency of occurrence / Frequency of occurrence of Probe_dst_prefi
 
 Country codes by alpha-2 & alpha-3  
 https://www.iban.com/country-codes
+
+
+## 【Federated Learning】
+Federated Learning for Iris dataset  
+How to apply Federated Learning to Iris dataset  
 
 
 ## 【predict】
