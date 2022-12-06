@@ -16,10 +16,7 @@ Column 04 : reply_src_addr
 
 ## 【result】
 
-Result File  
-.PNG  
-.html  
-.xlsx  
+Result File   
 
 
 ## 【GeoIP】
