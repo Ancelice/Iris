@@ -60,3 +60,15 @@ Dataset : 2022/10/25 11:00 ~ 2022/11/1 10:00 (JST)
 ・There are 1 administrator (World), and 6 clients (Africa, Asia, Europe, NA, Oceania, and SA)
 
 ・When calculating MSE and MAE, all 7 worker (World, Africa, Asia, Europe, NA, Oceania, and SA) calculate using the same test data in order to make it fair
+
+
+![image](https://user-images.githubusercontent.com/103622417/205860638-a1275408-91db-4080-8b95-2c2b0960991f.png)
+The Overview of Federated Learning for Iris dataset  
+
+
+![image](https://user-images.githubusercontent.com/103622417/205860805-e62957f8-439e-43c3-b70a-1298147dc94d.png)
+Workflow of collecting dataset and predicting future values  
+
+
+![image](https://user-images.githubusercontent.com/103622417/205860935-f8ca0f66-faa8-4679-a96d-49fbe5ab26fe.png)
+Deep Learning Model (4 layer deep neural network)
