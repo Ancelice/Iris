@@ -29,3 +29,33 @@ https://research.aimultiple.com/federated-learning/#what-is-federated-learning
 
 
 ## How to apply Federated Learning to Iris dataset  
+
+For prediction, I used Federated Learning and Deep Neural Network.
+
+What’s a Deep Neural Network?
+https://www.bmc.com/blogs/deep-neural-network/
+
+
+～Workflow for prediction (Federated Learning)～
+
+The data that could be collected at current time is used as training data 
+(ie: 2022/10/25 11:00), and divided by each region (Africa, Asia, Europe, NA, Oceania, and SA)
+The server sends the current machine learning model in the server (Global model) to the clients
+The clients train machine learning model by their own training data and create Local model
+Predict Data for the next time period (2022/10/25 12:00)
+Calculate MSE (Mean Square Error) and MAE (Mean Absolute Error) for local model
+The clients send Local model to the server
+The server updates Global model based on the information sent by the clients
+Calculate MSE and MAE for Global model
+
+
+～Intended Environment～
+
+・Iris dataset is collected for 1 week (The collection interval is 100,000 data / hour).
+Dataset : 2022/10/25 11:00 ~ 2022/11/1 10:00 (JST)
+
+・Dataset each time period is divided by 6 region group : six continents (Africa, Asia, Europe, NA, Oceania, and SA)
+
+・There are 1 administrator (World), and 6 clients (Africa, Asia, Europe, NA, Oceania, and SA)
+
+・When calculating MSE and MAE, all 7 worker (World, Africa, Asia, Europe, NA, Oceania, and SA) calculate using the same test data in order to make it fair
